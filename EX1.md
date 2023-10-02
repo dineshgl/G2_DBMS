@@ -22,37 +22,45 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
+create table student(rollno numeric(4), name varchar(50), age numeric(2),
+address varchar(10), phoneno numeric(10));
+
 
 
 ### OUTPUT:
+![image](https://github.com/dineshgl/G2_DBMS/assets/119393540/d1e4e3ee-b173-4418-8e4f-41df65fb2433)
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+alter table student add department varchar(4);
 ### OUTPUT:
+![image](https://github.com/dineshgl/G2_DBMS/assets/119393540/6e4d1ed7-9418-438a-9570-3876187ff7c6)
 
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-
+drop table studentz;
 
 ### OUTPUT:
+![image](https://github.com/dineshgl/G2_DBMS/assets/119393540/ae828397-5a92-41d2-a7b2-1f6a90c71eaf)
 
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
+truncate table student;
 
 ### OUTPUT:
 
+![image](https://github.com/dineshgl/G2_DBMS/assets/119393540/06e4d752-457d-4f78-914f-b4f680b6f68b)
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+alter table student rename to my_student;
 
 ### OUTPUT:
+![image](https://github.com/dineshgl/G2_DBMS/assets/119393540/3bb3087a-e20a-4f36-abbe-726ac9da4502)
