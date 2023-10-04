@@ -22,7 +22,7 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-```
+```sql
 create table student (rollno int,name char(20),age int,addr varchar(20),phoneno int);
 ```
 
@@ -33,7 +33,7 @@ create table student (rollno int,name char(20),age int,addr varchar(20),phoneno 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY:  
-```
+```sql
 alter table student add department char(90);
 ```
 ### OUTPUT:
@@ -44,7 +44,7 @@ alter table student add department char(90);
 ### 3) Drop the student table
  
 ### SQL QUERY:  
-```
+```sql
 drop table student;
 ```
 
@@ -57,7 +57,7 @@ drop table student;
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-```
+```sql
 truncate table student;
 ```
 
@@ -70,7 +70,7 @@ truncate table student;
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY:  
-```
+```sql
 alter table student rename to mystudent;
 ```
 
