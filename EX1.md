@@ -1,5 +1,7 @@
 # EXP NO 1: DATA DEFINITION LANGUGE COMMANDS IN RDBMS
 
+## DATE: 4/8/23
+
 ## AIM:
 To create a student database and execute DDL queries using SQL.
 
@@ -76,4 +78,7 @@ alter table student rename to mystudent;
 
 ### OUTPUT:
 ![image](https://github.com/dineshgl/G2_DBMS/assets/103019882/040eb6fe-359d-4f6f-9739-1ad36ffd7bab)
+
+## RESULT:
+      Thus the student database was created and DDL queries were executed
 
